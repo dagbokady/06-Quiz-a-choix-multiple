@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-                🎯 Jeu de Qui
+                🎯 Jeu de Quiz
             </h1>
 
             <p className="text-center max-w-md mb-8 text-lg opacity-90">

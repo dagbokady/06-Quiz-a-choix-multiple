@@ -29,6 +29,7 @@ export default function useGameLogic() {
         }
     };
 
+
     const resetGame = () => {
         setCurrentQuestionIndex(0);
         setScore(0);
