@@ -11,7 +11,7 @@ export default function Result() {
     const percentage = Math.round((score / total) * 100);
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-500 to-emerald-600 text-white px-4">
+        <div className={`min-h-screen flex items-center justify-center bg-gradient-to-br ${ score===0 ? "from-red-500 to-red-600":"from-green-500 to-emerald-600"} text-white px-4`}>
             <div className="bg-white text-gray-800 max-w-md w-full rounded-2xl shadow-xl p-8 text-center">
                 <h1 className="text-3xl font-bold mb-4">🎉 Résultat</h1>
 
@@ -25,7 +25,7 @@ export default function Result() {
 
                 <button
                     onClick={() => navigate("/game")}   // ou "/" selon ta route de départ
-                    className="bg-emerald-600 text-white px-6 py-3 rounded-xl hover:bg-emerald-700 transition"
+                    className={`${score===0 ? "bg-red-600": "bg-emerald-600" } text-white px-6 py-3 rounded-xl ${score===0 ? "hover:bg-red-700": "hover:bg-emerald-700" } transition`}
                 >
                     Rejouer 🔄
                 </button>

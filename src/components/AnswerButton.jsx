@@ -15,7 +15,7 @@ export default function AnswerButton({
                     ? "bg-green-500 text-white"
                     : isWrong
                         ? "bg-red-500 text-white"
-                        : "bg-indigo-100 hover:bg-indigo-200"
+                        : "bg-indigo-300 hover:bg-indigo-600"
             }
       `}
         >
