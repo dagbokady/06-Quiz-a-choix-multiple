@@ -1,5 +1,5 @@
 
-# 🎯 Qui – React Quiz App
+# 🎯 Quiz – React Quiz App
 
 Un quiz interactif simple et élégant créé avec **React**, **Vite** et **Tailwind CSS**.  
 Testez vos connaissances générales en répondant à des questions à choix multiples dans un design moderne et responsive.
