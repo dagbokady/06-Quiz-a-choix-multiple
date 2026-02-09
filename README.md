@@ -37,8 +37,8 @@ Testez vos connaissances générales en répondant à des questions à choix mul
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/VOTRE_USERNAME/qui-game.git
-cd qui-game
+git clone https://github.com/dagbokady/06-Quiz-a-choix-multiple.git
+cd quiz-game
 
 # 2. Installer les dépendances
 npm install
